@@ -40,7 +40,6 @@ const Index = () => {
           Our Products
         </Text>
         <HStack spacing={6} wrap="wrap" justifyContent="center">
-          {/* Example Product */}
           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" maxW="sm">
             <Image src="https://images.unsplash.com/photo-1714218707589-16bd396a8ab2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3YXRjaCUyMHByb2R1Y3R8ZW58MHx8fHwxNzE2OTAyMjIzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Watch Product" />
             <Box p={4}>
@@ -53,7 +52,42 @@ const Index = () => {
               </Button>
             </Box>
           </Box>
-          {/* Repeat for more products */}
+          <Box borderWidth="1px" borderRadius="lg" overflow="hidden" maxW="sm">
+            <Image src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3YXRjaCUyMHByb2R1Y3R8ZW58MHx8fHwxNzE2OTAyMjIzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Watch Product 2" />
+            <Box p={4}>
+              <Text fontSize="xl" fontWeight="bold">
+                Product Name 2
+              </Text>
+              <Text color="gray.500">$249.99</Text>
+              <Button colorScheme="teal" mt={2}>
+                Add to Cart
+              </Button>
+            </Box>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" overflow="hidden" maxW="sm">
+            <Image src="https://images.unsplash.com/photo-1513708922410-7f6aefcae3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3YXRjaCUyMHByb2R1Y3R8ZW58MHx8fHwxNzE2OTAyMjIzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Watch Product 3" />
+            <Box p={4}>
+              <Text fontSize="xl" fontWeight="bold">
+                Product Name 3
+              </Text>
+              <Text color="gray.500">$299.99</Text>
+              <Button colorScheme="teal" mt={2}>
+                Add to Cart
+              </Button>
+            </Box>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" overflow="hidden" maxW="sm">
+            <Image src="https://images.unsplash.com/photo-1513708922410-7f6aefcae3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3YXRjaCUyMHByb2R1Y3R8ZW58MHx8fHwxNzE2OTAyMjIzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Watch Product 4" />
+            <Box p={4}>
+              <Text fontSize="xl" fontWeight="bold">
+                Product Name 4
+              </Text>
+              <Text color="gray.500">$349.99</Text>
+              <Button colorScheme="teal" mt={2}>
+                Add to Cart
+              </Button>
+            </Box>
+          </Box>
         </HStack>
       </Box>
 
