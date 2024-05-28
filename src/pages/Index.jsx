@@ -49,7 +49,7 @@ const Index = () => {
           Our Story
         </Text>
         <Text fontSize="lg" color="gray.700" maxW="2xl" mx="auto">
-          Our journey began with a passion for horology and a desire to create unique timepieces that stand out. From humble beginnings, we have grown into a brand that values craftsmanship, innovation, and customer satisfaction. Each watch we create tells a story of dedication and artistry.
+          Our journey began with a passion for horology and a desire to create unique timepieces that stand out. As a new brand, we are excited to grow and expand our collection. With each passing year, we plan to release more watches that showcase new designs and elegance. From humble beginnings, we have grown into a brand that values craftsmanship, innovation, and customer satisfaction. Each watch we create tells a story of dedication and artistry.
         </Text>
       </Box>
 
