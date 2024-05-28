@@ -35,12 +35,21 @@ const Index = () => {
       </Box>
 
       {}
-      <Box as="section" textAlign="center" py={10} bg="gray.100">
+      <Box as="section" id="about" textAlign="center" py={10} bg="gray.100">
         <Text fontSize="3xl" fontWeight="bold" mb={4}>
           About Delara
         </Text>
         <Text fontSize="lg" color="gray.700" maxW="2xl" mx="auto">
           Delara is a new business inspired by the timeless elegance and precision of classic watchmaking. Founded in 2024, our brand is dedicated to creating custom and modified watches that blend traditional craftsmanship with modern design. Each piece is a testament to our commitment to quality, innovation, and style.
+        </Text>
+      </Box>
+
+      <Box as="section" id="our-story" textAlign="center" py={10}>
+        <Text fontSize="3xl" fontWeight="bold" mb={4}>
+          Our Story
+        </Text>
+        <Text fontSize="lg" color="gray.700" maxW="2xl" mx="auto">
+          Our journey began with a passion for horology and a desire to create unique timepieces that stand out. From humble beginnings, we have grown into a brand that values craftsmanship, innovation, and customer satisfaction. Each watch we create tells a story of dedication and artistry.
         </Text>
       </Box>
 
