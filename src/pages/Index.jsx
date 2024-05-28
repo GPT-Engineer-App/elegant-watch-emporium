@@ -1,15 +1,17 @@
-import { Container, Box, Text, VStack, HStack, Button, Image, IconButton, Input, Textarea, Link } from "@chakra-ui/react";
+import { Container, Box, Text, VStack, HStack, Button, Image, IconButton, Input, Textarea, Link, useColorMode } from "@chakra-ui/react";
 import { FaFacebook, FaTwitter, FaInstagram, FaShoppingCart } from "react-icons/fa";
 
 const Index = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+
   return (
     <Container maxW="container.xl" p={4}>
-      {/* Header */}
       <Box as="header" display="flex" justifyContent="space-between" alignItems="center" py={4}>
         <Text fontSize="2xl" fontWeight="bold">
           Delara
         </Text>
         <HStack spacing={4}>
+          <Button onClick={toggleColorMode}>{colorMode === "light" ? "Dark Mode" : "Light Mode"}</Button>
           <Button variant="ghost">Home</Button>
           <Button variant="ghost">Products</Button>
           <Button variant="ghost">Support</Button>
