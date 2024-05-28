@@ -20,7 +20,7 @@ const Index = () => {
         </HStack>
       </Box>
 
-      {/* Hero Section */}
+      {}
       <Box as="section" textAlign="center" py={10}>
         <Text fontSize="4xl" fontWeight="bold">
           Custom and Modified Watches
@@ -34,7 +34,17 @@ const Index = () => {
         </Button>
       </Box>
 
-      {/* Products Section */}
+      {}
+      <Box as="section" textAlign="center" py={10} bg="gray.100">
+        <Text fontSize="3xl" fontWeight="bold" mb={4}>
+          About Delara
+        </Text>
+        <Text fontSize="lg" color="gray.700" maxW="2xl" mx="auto">
+          Delara was inspired by the timeless elegance and precision of classic watchmaking. Our brand is dedicated to creating custom and modified watches that blend traditional craftsmanship with modern design. Each piece is a testament to our commitment to quality, innovation, and style.
+        </Text>
+      </Box>
+
+      {}
       <Box as="section" py={10}>
         <Text fontSize="3xl" fontWeight="bold" mb={6}>
           Our Products
