@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={4}>
       <Box as="header" display="flex" justifyContent="space-between" alignItems="center" py={4}>
-        <Text fontSize="2xl" fontWeight="bold">
+        <Text fontSize="2xl" fontWeight="bold" fontFamily="Playfair Display">
           Delara
         </Text>
         <HStack spacing={4}>
