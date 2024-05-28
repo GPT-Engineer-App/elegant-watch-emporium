@@ -40,7 +40,7 @@ const Index = () => {
           About Delara
         </Text>
         <Text fontSize="lg" color="gray.700" maxW="2xl" mx="auto">
-          Delara was inspired by the timeless elegance and precision of classic watchmaking. Our brand is dedicated to creating custom and modified watches that blend traditional craftsmanship with modern design. Each piece is a testament to our commitment to quality, innovation, and style.
+          Delara is a new business inspired by the timeless elegance and precision of classic watchmaking. Founded in 2024, our brand is dedicated to creating custom and modified watches that blend traditional craftsmanship with modern design. Each piece is a testament to our commitment to quality, innovation, and style.
         </Text>
       </Box>
 
