@@ -12,10 +12,18 @@ const Index = () => {
         </Text>
         <HStack spacing={4}>
           <Button onClick={toggleColorMode}>{colorMode === "light" ? "Dark Mode" : "Light Mode"}</Button>
-          <Button variant="ghost">Home</Button>
-          <Button variant="ghost">Products</Button>
-          <Button variant="ghost">Support</Button>
-          <Button variant="ghost">Contact</Button>
+          <Button variant="ghost" as={Link} to="/">
+            Home
+          </Button>
+          <Button variant="ghost" as={Link} to="/products">
+            Products
+          </Button>
+          <Button variant="ghost" as={Link} to="/support">
+            Support
+          </Button>
+          <Button variant="ghost" as={Link} to="/contact">
+            Contact
+          </Button>
           <IconButton aria-label="Cart" icon={<FaShoppingCart />} />
         </HStack>
       </Box>
